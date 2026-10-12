@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12224.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitdefender.QA.Tests", "Bitdefender.QA.Tests\Bitdefender.QA.Tests.csproj", "{0D104521-4F45-4D24-9E72-375FEA3AD215}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part1-TestDesign", "Part1-TestDesign", "{BE9E276A-E18D-4180-8B7D-D73D7791E24E}"
+	ProjectSection(SolutionItems) = preProject
+		Part1-TestDesign\api-checks.md = Part1-TestDesign\api-checks.md
+		Part1-TestDesign\exploratory-findings.md = Part1-TestDesign\exploratory-findings.md
+		Part1-TestDesign\test-cases.md = Part1-TestDesign\test-cases.md
+		Part1-TestDesign\test-plan.md = Part1-TestDesign\test-plan.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4A406848-8181-4DF1-AB55-01245E1AA237}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part3-AITestStrategy", "Part3-AITestStrategy", "{C1BB57D6-03B0-4531-A78D-0DDB0E8486AC}"
+	ProjectSection(SolutionItems) = preProject
+		ai-test-strategy.md = ai-test-strategy.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D104521-4F45-4D24-9E72-375FEA3AD215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D104521-4F45-4D24-9E72-375FEA3AD215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D104521-4F45-4D24-9E72-375FEA3AD215}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0D104521-4F45-4D24-9E72-375FEA3AD215}.Debug|x64.Build.0 = Debug|Any CPU
+		{0D104521-4F45-4D24-9E72-375FEA3AD215}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0D104521-4F45-4D24-9E72-375FEA3AD215}.Debug|x86.Build.0 = Debug|Any CPU
+		{0D104521-4F45-4D24-9E72-375FEA3AD215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D104521-4F45-4D24-9E72-375FEA3AD215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D104521-4F45-4D24-9E72-375FEA3AD215}.Release|x64.ActiveCfg = Release|Any CPU
+		{0D104521-4F45-4D24-9E72-375FEA3AD215}.Release|x64.Build.0 = Release|Any CPU
+		{0D104521-4F45-4D24-9E72-375FEA3AD215}.Release|x86.ActiveCfg = Release|Any CPU
+		{0D104521-4F45-4D24-9E72-375FEA3AD215}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {284F77A1-535A-4B20-B146-6605A49CAF31}
+	EndGlobalSection
+EndGlobal

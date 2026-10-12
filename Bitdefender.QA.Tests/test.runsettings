@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+	<!-- NUnit -->
+	<NUnit>
+		<NumberOfTestWorkers>1</NumberOfTestWorkers>
+	</NUnit>
+
+	<!-- Playwright -->
+	<Playwright>
+		<BrowserName>chromium</BrowserName>
+		<ExpectTimeout>10000</ExpectTimeout>
+		<LaunchOptions>
+			<Headless>false</Headless>
+			<Channel>chrome</Channel>
+			<SlowMo>200</SlowMo>
+		</LaunchOptions>
+	</Playwright>
+
+	<!-- Test configuration -->
+	<TestRunParameters>
+		<Parameter name="AppUrl" value="https://demoqa.com/" />
+		<Parameter name="AdminUser" value="adymus" />
+		<Parameter name="AdminPassword" value="Andromeda12@" />
+	</TestRunParameters>
+</RunSettings>

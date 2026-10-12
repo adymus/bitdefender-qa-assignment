@@ -1,0 +1,27 @@
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# Test results
+TestResults/
+*.trx
+playwright-report/
+test-results/
+
+# Temporary files
+*.tmp
+*.log
+
+# Local secrets
+.env
+.env.local
