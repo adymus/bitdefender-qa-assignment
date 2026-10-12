@@ -178,7 +178,7 @@ The approach focuses on:
 - Combining automated validation with manual security reviews.
 - Establishing release criteria based on security impact.
 
-[Read the AI Test Strategy](Part3-AITestStrategy/ai-test-strategy.md)
+[Read the AI Test Strategy](ai-test-strategy.md)
 
 ## Part 4 - AI Usage Statement
 
